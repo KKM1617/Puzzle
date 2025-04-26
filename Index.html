@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Puzzle Game - Earn Money</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-container">
+    <h1>Puzzle Game</h1>
+    <div id="level-info">Level: 1 | Earnings: $0</div>
+    <div id="timer">Time Left: 30s</div>
+    <div id="puzzle-container"></div>
+    <button id="submit-btn" onclick="checkAnswer()">Submit Answer</button>
+</div>
+
+<!-- Reward Ad Popup -->
+<div id="ad-popup" class="hidden">
+    <div class="ad-content">
+        <h2>Reward Ad</h2>
+        <p>Thank you for watching this ad!</p>
+        <button onclick="closeAd()">Continue</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
